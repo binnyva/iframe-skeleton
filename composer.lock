@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "730fe75713a47d9c1ab3b3106a83c53c",
+    "packages": [
+        {
+            "name": "binnyva/iframe",
+            "version": "2.0.0",
+            "dist": {
+                "type": "path",
+                "url": "/mnt/x/Data/www/iframe2/iframe",
+                "reference": "ff00eb0ea52b1a2760adbe0d2d06baa9766ca0fd"
+            },
+            "require": {
+                "php": "^5.5 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "iframe\\": "src/classes"
+                },
+                "files": [
+                    "src/helpers/shortcuts.php",
+                    "src/helpers/misc.php"
+                ]
+            },
+            "scripts": {
+                "post-install-cmd": [
+                    "@php scripts/install.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Binny V A",
+                    "email": "binnyva@gmail.com",
+                    "homepage": "http://binnyva.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "iFrame is a PHP framework",
+            "keywords": [
+                "framework",
+                "microframework",
+                "mvc",
+                "php"
+            ]
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

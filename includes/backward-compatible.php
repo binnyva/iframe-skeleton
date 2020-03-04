@@ -1,4 +1,16 @@
 <?php
+use iframe\App;
+use iframe\Wrapper\Image;
+use iframe\iframe\Template;
+use iframe\iframe\Plugin;
+use iframe\iframe\Crud;
+use iframe\HTML\HTML;
+use iframe\HTML\Calendar;
+use iframe\Development\Logger;
+use iframe\DB\SqlPager;
+use iframe\DB\Sql;
+use iframe\DB\DBTable;
+
 function showHead($title='') {
 	require(iframe\App::$config['iframe_folder'] . '/templates/layout/head.php');
 }
