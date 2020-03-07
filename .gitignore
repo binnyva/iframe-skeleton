@@ -2,3 +2,5 @@
 /node_modules
 /vendor
 iframe.sublime-workspace
+composer.lock
+

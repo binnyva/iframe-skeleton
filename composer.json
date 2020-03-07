@@ -1,7 +1,6 @@
 {
   "name": "binnyva/iframe-skeleton",
   "description": "Skeleton App for iFrame PHP micro framework",
-  "version": "1.0.0",
   "require": {
     "binnyva/iframe": "^2.0"
   }
