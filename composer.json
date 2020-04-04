@@ -1,12 +1,7 @@
 {
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/mnt/x/Data/www/iframe2/iframe"
-        }
-  	],
-
-    "require": {
-        "binnyva/iframe": "^2.0"
-    }
+  "name": "binnyva/iframe-skeleton",
+  "description": "Skeleton App for iFrame PHP micro framework",
+  "require": {
+    "binnyva/iframe": "^2.0"
+  }
 }

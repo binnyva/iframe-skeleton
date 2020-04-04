@@ -39,7 +39,7 @@ include(iframe\App::$template->template);
 
 <script src="<?php echo $app_config['app_url'] ?>node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <script src="<?php echo $app_config['app_url'] ?>node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="<?php echo $app_config['app_url'] ?>js/application.js" type="text/javascript"></script>
+<script src="<?php echo $app_config['app_url'] ?>assets/js/application.js" type="text/javascript"></script>
 <?php echo $js_includes ?>
 </body>
 </html>
