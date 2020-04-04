@@ -1,16 +1,4 @@
 <?php
-use iframe\App;
-use iframe\Wrapper\Image;
-use iframe\iframe\Template;
-use iframe\iframe\Plugin;
-use iframe\iframe\Crud;
-use iframe\HTML\HTML;
-use iframe\HTML\Calendar;
-use iframe\Development\Logger;
-use iframe\DB\SqlPager;
-use iframe\DB\Sql;
-use iframe\DB\DBTable;
-
 function showHead($title='') {
 	require(iframe\App::$config['iframe_folder'] . '/templates/layout/head.php');
 }
@@ -22,7 +10,7 @@ function showTop($title='') {
 	showBegin();
 }
 function showEnd() {
-	require(iframe\App::$config['iframe_folder'] . '/templates/layout/end.php');	
+	require(iframe\App::$config['iframe_folder'] . '/templates/layout/end.php');
 }
 
 function render($file='', $use_layout=true, $use_exact_path = false, $variable_array=false) {
@@ -36,7 +24,7 @@ function render($file='', $use_layout=true, $use_exact_path = false, $variable_a
 	iframe\App::$template->render($variable_array, [
 									'template' 	=> $file, 
 									'use_layout'=> $use_layout, 
-									'exact_path'=> $use_exact_path 
+									'use_exact_path'=> $use_exact_path 
 								]);
 }
 
