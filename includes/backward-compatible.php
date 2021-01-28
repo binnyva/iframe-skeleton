@@ -31,8 +31,8 @@ function render($file='', $use_layout=true, $use_exact_path = false, $variable_a
 function setupBackwardCompatibility() {
 	$config = iframe\App::$config;
 
-	$config['app_title'] = $config['app_name'];
-	$config['app_home'] = $config['app_url'];
+	$config['app_title'] = i($config, 'app_name', '');
+	$config['app_home'] = i($config, 'app_url', '');
 	// Lots of site_ config options were moved to app_. Eg site_title is now app_title
 	foreach($config as $key => $value) {
 		if(preg_match("/^app_/", $key)) {

@@ -3,4 +3,4 @@ require 'common.php';
 
 $message = "Hello World";
 
-render();
+$app->render(['message' => $message]);

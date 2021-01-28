@@ -35,7 +35,7 @@ include(iframe\App::$template->template);
 <!-- End Content -->
 </div>
 
-<div id="footer">An <a href="http://www.bin-co.com/php/scripts/iframe/">iFrame</a> Application</div>
+<!-- <div id="footer">An <a href="http://www.bin-co.com/php/scripts/iframe/">iFrame</a> Application</div> -->
 
 <script src="<?php echo $app_config['app_url'] ?>node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <script src="<?php echo $app_config['app_url'] ?>node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

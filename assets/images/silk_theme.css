@@ -33,10 +33,10 @@
 .icon-deactive,.icon-inactive {background-image:url(silk_icons/cross.png);}
 
 /*Paging*/
-.icon-page-next,.icon-next {background-image:url(silk_icons/resultset_next.png);}
-.icon-page-back,.icon-previous,.icon-page-previous {background-image:url(silk_icons/resultset_previous.png);}
-.icon-page-first,.icon-first {background-image:url(silk_icons/resultset_first.png);}
-.icon-page-last,.icon-last {background-image:url(silk_icons/resultset_last.png);}
+.icon-page-next,.icon-next {background-image:url(silk_icons/next.png);}
+.icon-page-back,.icon-previous,.icon-page-previous {background-image:url(silk_icons/previous.png);}
+.icon-page-first,.icon-first {background-image:url(silk_icons/first.png);}
+.icon-page-last,.icon-last {background-image:url(silk_icons/last.png);}
 .icon-home {background-image:url(silk_icons/house.png);}
 
 /*Common Stuff*/
