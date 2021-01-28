@@ -33,6 +33,7 @@ function setupBackwardCompatibility() {
 
 	$config['app_title'] = i($config, 'app_name', '');
 	$config['app_home'] = i($config, 'app_url', '');
+
 	// Lots of site_ config options were moved to app_. Eg site_title is now app_title
 	foreach($config as $key => $value) {
 		if(preg_match("/^app_/", $key)) {
@@ -50,5 +51,7 @@ function setupBackwardCompatibility() {
 
 	iframe\App::$template->css_folder = 'css';
 	iframe\App::$template->js_folder = 'js';
+	$GLOBALS['template'] = iframe\App::$template;
+	$GLOBALS['i_plugin'] = iframe\App::$plugin;
 }
 
