@@ -10,6 +10,9 @@ a {
 	text-decoration:none;
 	color:blue;
 }
+main {
+	margin-top: 70px;
+}
 .form-area label {
 	width:100px;
 	display:block;

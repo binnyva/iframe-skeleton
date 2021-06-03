@@ -17,10 +17,12 @@ table.calendar {
 	background: #eee;
 	padding: 2px;
 	margin:0;
-	width:13%;
 	height:100px;
 	vertical-align:top;
 	border-left:1px solid #999;
+}
+.calendar td.days {
+	width:13%;
 }
 .calendar tr.weekday-names td {
 	height:20px;
