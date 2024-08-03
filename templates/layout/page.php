@@ -5,8 +5,6 @@
 echo $app_config['app_name'];
 if(isset($page_title)) echo ' : ' . $page_title;
 ?></title>
-<link href="<?php echo $app_config['app_url'] ?>assets/css/style.css" rel="stylesheet" type="text/css" />
-<link href="<?php echo $app_config['app_url'] ?>assets/images/silk_theme.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo $app_config['app_url'] ?>node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
 <?php echo $css_includes ?>
 </head>
@@ -53,7 +51,6 @@ include(iframe\App::$template->template);
 
 <script src="<?php echo $app_config['app_url'] ?>node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <script src="<?php echo $app_config['app_url'] ?>node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="<?php echo $app_config['app_url'] ?>assets/js/application.js" type="text/javascript"></script>
 <?php echo $js_includes ?>
 </body>
 </html>
