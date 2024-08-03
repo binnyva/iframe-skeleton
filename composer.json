@@ -1,7 +1,18 @@
 {
   "name": "binnyva/iframe-skeleton",
   "description": "Skeleton App for iFrame PHP micro framework",
+  "repositories": [
+    {
+        "type": "path",
+        "url": "/opt/homebrew/var/www/iframe/iframe",
+        "options": {
+          "versions": {
+              "binnyva/iframe": "4.2-dev"
+          }
+        }
+    }
+  ],
   "require": {
-    "binnyva/iframe": "^2.0"
+    "binnyva/iframe": "4.2-dev"
   }
 }
